@@ -7,6 +7,6 @@ authors:
     orcid: https://orcid.org/0000-0001-2345-6789
 date-released: 2025-07-06
 version: 1.0.0
-doi: 10.5281/zenodo.1234567
+https://doi.org/10.5281/zenodo.15829060
 license: MIT
 repository-code: https://github.com/naveen-dandu/RamanSpectrumPredictor_QM9
