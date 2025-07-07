@@ -1,0 +1,7 @@
+title: Raman Spectrum Predictor
+emoji: 🔬
+colorFrom: indigo
+colorTo: green
+sdk: streamlit
+app_file: app.py
+pinned: false
