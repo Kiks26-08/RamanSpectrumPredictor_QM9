@@ -42,14 +42,57 @@ python scripts/predict.py "CCO"
 
 ---
 
-## 📈 Features
+## 🧠 Features
 
-- RDKit-based featurization: mol_weight, ring count, TPSA, logP, etc.
-- XGBoost regression model
-- Modular scripts for training and prediction
-- Jupyter notebook support for exploration
-- GitHub Actions for CI/CD
+- ✅ RDKit-based molecular featurization
+- ✅ XGBoost regression model
+- ✅ CLI scripts for training and prediction
+- ✅ Streamlit UI for interactive use
+- ✅ Jupyter notebook for data exploration
+- ✅ Pytest and GitHub Actions for continuous integration
+- ✅ Zenodo/DOI-ready metadata and citation support
 
+---
+
+## ⚙️ Setup
+
+### Using Conda
+
+```bash
+conda env create -f environment.yml
+conda activate raman-predictor
+```
+
+### Using Pip
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 Quick Start
+
+### Train the Model
+
+```bash
+python scripts/train_model.py
+```
+
+### Predict from SMILES
+
+```bash
+python scripts/predict.py "CCO"
+```
+
+---
+## 📊 Jupyter Notebook (EDA)
+
+To explore the dataset visually:
+
+```bash
+jupyter notebook notebooks/01_data_exploration.ipynb
+```
 ---
 
 ## 🧪 Future Extensions
@@ -61,6 +104,34 @@ python scripts/predict.py "CCO"
 
 ---
 
-## 🧾 License
+## 🧪 Run Tests
 
-MIT License
+```bash
+pytest
+```
+
+---
+
+## 📄 Citation
+
+If you use this work, please cite:
+
+```yaml
+Dandu, Naveen. RamanSpectrumPredictor_QM9. 2025. 
+DOI: 10.5281/zenodo.15829060
+```
+
+See [`CITATION.cff`](CITATION.cff) and [.zenodo.json](.zenodo.json) for full metadata.
+
+---
+
+## 📜 License
+
+[MIT License](https://opensource.org/licenses/MIT)
+
+---
+
+## 🔖 Keywords
+
+`machine-learning` • `raman-spectroscopy` • `qm9` • `chemoinformatics` • `streamlit` • `rdkit` • `xgboost` • `spectral-prediction` • `materials-informatics`
+
