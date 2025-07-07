@@ -1,8 +1,9 @@
 pandas
 numpy
 scikit-learn
+xgboost
 rdkit
+joblib
 matplotlib
 seaborn
-xgboost
-pytest
+streamlit
