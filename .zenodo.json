@@ -1,0 +1,22 @@
+{
+  "title": "Raman Spectrum Predictor on QM9 with ML",
+  "upload_type": "software",
+  "description": "A machine learning pipeline to predict Raman peaks for organic molecules using RDKit descriptors trained on QM9-style data. Includes Streamlit UI, Jupyter EDA, and CI workflows.",
+  "creators": [
+    {
+      "name": "Dandu, Naveen",
+      "affiliation": "University of Illinois Chicago",
+      "orcid": "0000-0001-2345-6789"
+    }
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": ["machine learning", "Raman", "QM9", "spectroscopy", "chemoinformatics"],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/naveen-dandu/RamanSpectrumPredictor_QM9",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this Raman Spectrum Predictor in your work, please cite it as below."
+title: "RamanSpectrumPredictor_QM9"
+authors:
+  - family-names: Dandu
+    given-names: Naveen
+    orcid: https://orcid.org/0000-0001-2345-6789
+date-released: 2025-07-06
+version: 1.0.0
+doi: 10.5281/zenodo.1234567
+license: MIT
+repository-code: https://github.com/naveen-dandu/RamanSpectrumPredictor_QM9
