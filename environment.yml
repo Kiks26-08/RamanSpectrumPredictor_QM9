@@ -1,0 +1,11 @@
+name: raman-predictor
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scikit-learn
+  - rdkit
+  - matplotlib
+  - seaborn
+  - xgboost
+  - pip
